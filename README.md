@@ -12,7 +12,6 @@ This repo contains a project for controlling an air conditioning unit wirelessly
 ## Requirements
 
 - **Hardware**:
-
   - ESP8266 microcontroller (e.g., NodeMCU, Wemos D1 R1 Mini)
   - IR LED for sending commands to the AC unit
   - Power supply for the ESP8266
