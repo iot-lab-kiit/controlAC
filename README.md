@@ -67,6 +67,28 @@ The code is designed to be easily modified for different AC models or additional
 
 - To change IR codes for different AC brands/models, update the corresponding functions (`convertFan`, `convertMode`, etc.) with appropriate values.
 - Adjust temperature limits and fan speed settings as needed.
+- Endpoints:
+  **Control Endpoints**
+
+These endpoints handle different actions for controlling the AC:
+
+    /power
+        Toggles the power state of the AC (ON/OFF).
+
+    /tempup
+        Increases the temperature setting of the AC by 1 degree, as long as it is below the maximum limit (kLgAcMaxTemp).
+
+    /tempdown
+        Decreases the temperature setting of the AC by 1 degree, as long as it is above the minimum limit (kLgAcMinTemp).
+
+    /fan
+        Cycles through available fan speed settings (e.g., low, medium, high, auto).
+
+    /mode
+        Cycles through the available AC modes (e.g., cool, dry, fan, auto, heat).
+
+    /swing (optional, appears in JavaScript but not implemented in the provided C++ code)
+        Controls the swing functionality if implemented.
 
 ## Credits
 
