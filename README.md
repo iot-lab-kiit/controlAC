@@ -1,4 +1,4 @@
-# ACCONtROL
+# controlAC
 
 This repo contains a project for controlling an air conditioning unit wirelessly using an ESP8266 microcontroller. The system allows users to operate the AC unit via a web interface accessible from a smartphone or PC, eliminating the need for a traditional remote control. This project is part of a broader lab automation initiative aimed at enhancing the convenience and efficiency of managing home appliances.
 
@@ -12,6 +12,7 @@ This repo contains a project for controlling an air conditioning unit wirelessly
 ## Requirements
 
 - **Hardware**:
+
   - ESP8266 microcontroller (e.g., NodeMCU, Wemos D1 R1 Mini)
   - IR LED for sending commands to the AC unit
   - Power supply for the ESP8266
@@ -59,7 +60,8 @@ This repo contains a project for controlling an air conditioning unit wirelessly
 
 1. After uploading, open the Serial Monitor (set to 115200 baud) to view connection status.
 2. Once connected, access the web interface by entering the ESP8266's IP address in your web browser.
-3. Use the buttons on the interface to control power, temperature, fan speed, and mode of your AC unit.
+3. Go to the esp_ip/file-upload url and upload all the contains of the data folder one at a time.
+4. Use the buttons on the interface to control power, temperature, fan speed, and mode of your AC unit.
 
 ## Customization
 
